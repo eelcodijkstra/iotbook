@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/jquery-ui-1.10.3.custom.min.css?v=97E0178A" />
     <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="../_static/user-highlights.css?v=A2326E52" />
-    <link rel="stylesheet" type="text/css" href="../_static/runestone-custom-sphinx-bootstrap.css?v=5.5.12" />
+    <link rel="stylesheet" type="text/css" href="../_static/runestone-custom-sphinx-bootstrap.css?v=5.5.16" />
     <link rel="stylesheet" type="text/css" href="../_static/theme-overrides.css?v=2DAFE138" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -44,7 +44,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.2/build/vega.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@2.5.0/build/vega-lite.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.14.0/build/vega-embed.js"></script>
-    <script src="../_static/runestone.js?v=DC48DFAC"></script>
+    <script src="../_static/runestone.js?v=C3298E16"></script>
     <script src="../_static/jquery-ui-1.10.3.custom.min.js?v=2B07FE4F"></script>
     <script src="../_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
     <script src="../_static/jquery-fix.js?v=1226591B"></script>
@@ -79,7 +79,7 @@
   eBookConfig.build_info = "unknown";
   eBookConfig.python3 = true;
   eBookConfig.acDefaultLanguage = 'python' ? 'python' : 'python'
-  eBookConfig.runestone_version = '5.5.12';
+  eBookConfig.runestone_version = '5.5.16';
   eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
   eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
   eBookConfig.proxyuri_files = '/jobe/index.php/restapi/files/';
@@ -290,24 +290,25 @@
 <p>Hierboven zie je de IoT-keten met verbindingen en verbindingsapparaten:</p>
 <ul class="simple">
 <li><p>de <em>IoT-radioverbinding</em> verbindt de IoT-knoop met de <em>IoT-gateway</em>;</p></li>
-<li><p>de <em>IoT-gateway</em> zorgt enerzijds voor de radiocommunicatie met de IoT-knoop,
-en anderzijds voor de verbinding met lokale netwerk (LAN);</p></li>
+<li><p>de <em>IoT-gateway</em> verbindit dit draadloze IoT-netwerk met het lokale netwerk (LAN);</p></li>
 <li><p>de <em>LAN/WAN (lokale) gateway</em> verbindt het lokale netwerk (LAN) met het internet
 - via het wide-area netwerk (WAN) van de internet service provider (ISP);</p></li>
 <li><p>de <em>MQTT-broker</em> zorgt voor de MQTT-communicatie tussen de IoT-knopen,
 de controllers en de apps in het publieke internet;</p></li>
 </ul>
-<p>In deze figuur zijn de fysieke communicatieverbindingen getekend:</p>
+<p>In deze figuur zijn ook de verbindingen getekend:</p>
 <ul class="simple">
 <li><p>de IoT-radioverbinding tussen IoT-knoop en IoT-gateway;</p></li>
 <li><p>het lokale netwerk (LAN), met daarin de lokale controller;</p></li>
 <li><p>het publieke internet - verbonden via het wide area network (WAN) van de internet service provider;</p></li>
 <li><p>met daaraan verbonden de MQTT broker, de globale controller, de app(s) en de diensten (in de “cloud”).</p></li>
 </ul>
+<p>Deze verbindingen zijn voor een deel bedraad, bijvoorbeeld als Ethernet of glasvezel-verbindingen.
+Draadloze (radio)verbindingen vind je in het IoT-netwerk,
+in het lokale netwerk (WiFi), en in het mobiele internet voor de smartphone.</p>
 <p>De keten is opgebouwd uit een lokaal deel, de <em>edge</em>, dichtbij de IoT-knopen;
-en een deel op afstand, via het publieke internet.
-De MQTT-broker, de globale controller en de diensten vind je vaak <em>in the cloud</em>,
-in grote servercentra (“server farms”).</p>
+en een deel op afstand in grote servercentra (de <em>cloud</em>).
+Daar vind je de MQTT-broker, de globale controller en de diensten.</p>
 </div>
 
 
@@ -371,7 +372,7 @@ in grote servercentra (“server farms”).</p>
     </p>
     <p>
         &copy; Copyright 2020 eelco.
-      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 5.5.12.
+      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 5.5.16.
     </p>
   </div>
 </footer>

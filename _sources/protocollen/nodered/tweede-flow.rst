@@ -71,7 +71,7 @@ Als de server de juiste HTML-pagina terugstuurt, is de website nog "online".
 
 .. rubric:: Opdracht B
 
-.. figure:: nodered-checkserver-flow-c.png
+.. figure:: nodered-checkserver-flow-b.png
    :width: 600px
    :align: center
 

@@ -2,7 +2,14 @@
 Netwerken - Internet of Things
 ##############################
 
-Inleiding...
+.. toctree::
+   :maxdepth: 1
+
+   voorwoord.rst
+
+******
+Inhoud
+******
 
 .. toctree::
    :maxdepth: 2
