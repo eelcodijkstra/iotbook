@@ -121,7 +121,6 @@ Deze oefeningen hebben geen effect op de flows zelf.
 
   * het (on)zichtbaar maken van de sidebar (info/debug/dashboard)
   * het importeren van flows (vanuit het Clipboard)
-  * het zichtbaar maken van de tab met configuratie-nodes
 
 * zoek in het palette:
 

@@ -45,11 +45,17 @@ De dashboard-flow vind je via: :download:`./dashboard-flow-1.json`,
   * selecteer bij "Server": ``infvopedia.nl:1883``
   * "Done"
 
-* je krijgt nu het dashboard van de node ``fe05``.
+* je kunt nu via de debug-tab de MQTT-berichten volgen
 
-  * in de debug-tab worden de mqtt-berichten getoond
-  * het dashboard krijg je via: dasboard-tab, hokje-met-pijltje rechts boven.
+* het dashboard van de node ``fe05`` krijg je als volgt
+
+  * selecteer de dasboard-tab
+  * klik op het hokje-met-pijltje rechts boven (zie onderstaande figuur)
   * het dashboard komt dan in een apart browser-venster.
+
+.. figure:: nodered-dashboard-tab.png
+   :width: 250 px
+   :align: center  
 
 * voor het aanpassen aan een eigen node:
 

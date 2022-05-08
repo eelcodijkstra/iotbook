@@ -17,8 +17,7 @@
     <link rel="stylesheet" type="text/css" href="_static/presenter_mode.css?v=9FF1320F" />
     <link rel="stylesheet" type="text/css" href="_static/jquery-ui-1.10.3.custom.min.css?v=97E0178A" />
     <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css?v=A2326E52" />
-    <link rel="stylesheet" type="text/css" href="_static/runestone-custom-sphinx-bootstrap.css?v=5.5.16" />
+    <link rel="stylesheet" type="text/css" href="_static/runestone-custom-sphinx-bootstrap.css?v=5.6.1" />
     <link rel="stylesheet" type="text/css" href="_static/theme-overrides.css?v=2DAFE138" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -30,7 +29,6 @@
     <script src="_static/Blob.js?v=AEC2447"></script>
     <script src="_static/html4css1.css?v=4533ACD3"></script>
     <script src="_static/animationbase.js?v=A043C3A7"></script>
-    <script src="_static/pytutor-embed.bundle.js?v=268B5C04"></script>
     <script src="_static/jquery.highlight.js?v=F1C496C8"></script>
     <script src="_static/sql-wasm.js?v=D71B5933"></script>
     <script src="https://cdn.jsdelivr.net/npm/handsontable@7.2.2/dist/handsontable.full.js"></script>
@@ -44,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.2/build/vega.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@2.5.0/build/vega-lite.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.14.0/build/vega-embed.js"></script>
-    <script src="_static/runestone.js?v=C3298E16"></script>
+    <script src="_static/runestone.js?v=5A173BAB"></script>
     <script src="_static/jquery-ui-1.10.3.custom.min.js?v=2B07FE4F"></script>
     <script src="_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
     <script src="_static/jquery-fix.js?v=1226591B"></script>
@@ -52,7 +50,6 @@
     <script src="_static/jquery.idle-timer.js?v=E942DAF1"></script>
     <script src="_static/presenter_mode.js?v=2DF16FB4"></script>
     <script src="_static/theme.js?v=D899FB97"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Configureren" href="configureren.html" />
@@ -79,7 +76,7 @@
   eBookConfig.build_info = "unknown";
   eBookConfig.python3 = true;
   eBookConfig.acDefaultLanguage = 'python' ? 'python' : 'python'
-  eBookConfig.runestone_version = '5.5.16';
+  eBookConfig.runestone_version = '5.6.1';
   eBookConfig.jobehost = 'http://jobe2.cosc.canterbury.ac.nz';
   eBookConfig.proxyuri_runs = '/jobe/index.php/restapi/runs/';
   eBookConfig.proxyuri_files = '/jobe/index.php/restapi/files/';
@@ -284,53 +281,53 @@
   <div class="section" id="begrippenlijst">
 <h1>Begrippenlijst<a class="headerlink" href="#begrippenlijst" title="Permalink to this headline">¶</a></h1>
 <dl class="glossary simple">
-<dt id="term-downlink">downlink</dt><dd><p>van de toepassing naar de IoT-knoop; tegenover uplink.</p>
+<dt id="term-downlink">downlink<a class="headerlink" href="#term-downlink" title="Permalink to this term">¶</a></dt><dd><p>van de toepassing naar de IoT-knoop; tegenover uplink.</p>
 </dd>
-<dt id="term-gateway">gateway</dt><dd><p>verbinding tussen twee netwerken.
+<dt id="term-gateway">gateway<a class="headerlink" href="#term-gateway" title="Permalink to this term">¶</a></dt><dd><p>verbinding tussen twee netwerken.
 Als de protocollen van deze netwerken verschillen,
 dan verzorgt de gateway de <em>protocol-conversie</em>.</p>
 </dd>
-<dt id="term-payload">payload</dt><dd><p>De “eigenlijke data” die getransporteerd wordt als onderdeel van een bericht, pakket of frame.
+<dt id="term-payload">payload<a class="headerlink" href="#term-payload" title="Permalink to this term">¶</a></dt><dd><p>De “eigenlijke data” die getransporteerd wordt als onderdeel van een bericht, pakket of frame.
 Zie ook <em>metadata</em>.</p>
 </dd>
-<dt id="term-metadata">metadata</dt><dd><p>“data voor het beschrijven van data”.
+<dt id="term-metadata">metadata<a class="headerlink" href="#term-metadata" title="Permalink to this term">¶</a></dt><dd><p>“data voor het beschrijven van data”.
 In het geval van communicatie, meestal data over de communicatie,
 bijvoorbeeld het volgnummer van een bericht, tijdstip van de communicatie,
 of de signaalsterkte bij radiocommunicatie.</p>
 </dd>
-<dt id="term-replay-attack">replay-attack</dt><dd><p>poging om in te breken in een beveiligde communicatie, door het herhalen van een vroeger bericht.
+<dt id="term-replay-attack">replay-attack<a class="headerlink" href="#term-replay-attack" title="Permalink to this term">¶</a></dt><dd><p>poging om in te breken in een beveiligde communicatie, door het herhalen van een vroeger bericht.
 Stel dat je altijd hetzelfde (radio)bericht gebruik om een deur te openen:
 iemand kan dit bericht opvangen en opnieuw afspelen als het hem uitkomt.
 Je kunt dit voorkomen door elk bericht van een volgnummer te voorzien:
 een bericht dat niet in de volgorde past wordt overgeslagen.</p>
 </dd>
-<dt id="term-uplink">uplink</dt><dd><p>van de IoT-knoop naar de toepassing; tegenover downlink.</p>
+<dt id="term-uplink">uplink<a class="headerlink" href="#term-uplink" title="Permalink to this term">¶</a></dt><dd><p>van de IoT-knoop naar de toepassing; tegenover downlink.</p>
 </dd>
-<dt id="term-pakketradio">pakketradio</dt><dd><p>radio voor pakket-georiënteerde communicatie. Pakketten voor IoT-radio’s zijn vaak vrij klein,
+<dt id="term-pakketradio">pakketradio<a class="headerlink" href="#term-pakketradio" title="Permalink to this term">¶</a></dt><dd><p>radio voor pakket-georiënteerde communicatie. Pakketten voor IoT-radio’s zijn vaak vrij klein,
 met bijvoorbeeld een maximale payload van 60 bytes (RFM69) of 51 bytes (LoRaWan - KPN).</p>
 </dd>
-<dt id="term-best-effort-communicatie">best effort communicatie</dt><dd><p>communicatie in de verwachting dat deze meestal aankomt, zonder garantie voor de betrouwbare aflevering.
+<dt id="term-best-effort-communicatie">best effort communicatie<a class="headerlink" href="#term-best-effort-communicatie" title="Permalink to this term">¶</a></dt><dd><p>communicatie in de verwachting dat deze meestal aankomt, zonder garantie voor de betrouwbare aflevering.
 Veel basisprotocollen zijn best effort, bijvoorbeeld: Ethernet, IP, RFM69, LoRa.
 Betrouwbare communicatie moet dan (als dat nodig is) door een protocol in een hogere laag gerealiseerd worden.
 (“best effort” zegt niets over de daadwerkelijke betrouwbaarheid van de communicatie.)</p>
 </dd>
-<dt id="term-sensor">sensor</dt><dd><p>(elektronisch) onderdeel voor het waarnemen of meten van een fysisch verschijnsel: bijvoorbeeld temperatuur, luchtdruk,
+<dt id="term-sensor">sensor<a class="headerlink" href="#term-sensor" title="Permalink to this term">¶</a></dt><dd><p>(elektronisch) onderdeel voor het waarnemen of meten van een fysisch verschijnsel: bijvoorbeeld temperatuur, luchtdruk,
 licht, beeld, geluid, versnelling, gasconcentraties, enz.
 Ook drukknoppen, camera’s, microfoons, GPS-ontvangers zijn voorbeelden van sensoren.
 Moderne smartphones hebben tientallen sensoren.</p>
 </dd>
-<dt id="term-actuator">actuator</dt><dd><p>onderdeel voor het besturen van een fysisch verschijnsel (vanuit een elektronische schakeling).
+<dt id="term-actuator">actuator<a class="headerlink" href="#term-actuator" title="Permalink to this term">¶</a></dt><dd><p>onderdeel voor het besturen van een fysisch verschijnsel (vanuit een elektronische schakeling).
 Voorbeelden van sensoren: luidspreker, beeldscherm, lamp, led, relais (voor het schakelen van grotere stromen),
 waterklep, buzzer, enz.</p>
 </dd>
-<dt id="term-controller">controller</dt><dd><p>computer of computerprogramma voor het meten en aansturen van fysische verschijnselen via sensoren en actuatoren.
+<dt id="term-controller">controller<a class="headerlink" href="#term-controller" title="Permalink to this term">¶</a></dt><dd><p>computer of computerprogramma voor het meten en aansturen van fysische verschijnselen via sensoren en actuatoren.
 Een IoT-knoop heeft een <em>microcontroller</em>: een volledige besturingscomputer op een chip.</p>
 </dd>
-<dt id="term-signaal">signaal</dt><dd><p>een signaal heeft op elk moment een waarde.
+<dt id="term-signaal">signaal<a class="headerlink" href="#term-signaal" title="Permalink to this term">¶</a></dt><dd><p>een signaal heeft op elk moment een waarde.
 In een signaal kunnen <em>events</em> gedetecteerd worden, bijvoorbeeld de overgang van “laag” naar “hoog”;
 of een “hartslag”.</p>
 </dd>
-<dt id="term-event">event</dt><dd><p>gebeurtenis die op een bepaald moment plaatsvindt, waarbij de duur niet van belang is.
+<dt id="term-event">event<a class="headerlink" href="#term-event" title="Permalink to this term">¶</a></dt><dd><p>gebeurtenis die op een bepaald moment plaatsvindt, waarbij de duur niet van belang is.
 Voorbeelden: het indrukken van een knop; het openen van een deur; een hartslag.</p>
 </dd>
 </dl>
@@ -397,7 +394,7 @@ Voorbeelden: het indrukken van een knop; het openen van een deur; een hartslag.<
     </p>
     <p>
         &copy; Copyright 2020 eelco.
-      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 5.5.16.
+      Created using <a href="http://runestoneinteractive.org/">Runestone</a> 5.6.1.
     </p>
   </div>
 </footer>
