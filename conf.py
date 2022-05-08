@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'IoT-book'
-copyright = '2020 eelco'
+copyright = '2020 SLO, Amersfoort (CC-BY licentie)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -71,7 +71,7 @@ release = '0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = [".ipynb_checkpoints/*"]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
