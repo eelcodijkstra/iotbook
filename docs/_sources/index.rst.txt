@@ -6,6 +6,7 @@ Netwerken - Internet of Things
    :maxdepth: 1
 
    voorwoord.rst
+   verantwoording.rst
 
 ******
 Inhoud

@@ -11,7 +11,7 @@ maar met dit materiaal zet je de eerste stappen hiervoor.
 Alle elementen voor een IoT-toepassing liggen binnen je bereik:
 je hebt er voornamelijk tijd, aandacht en enig doorzettingsvermogen voor nodig.
 
-.. figure:: inleiding/IoT-knoop-WiFi-3.png
+.. figure:: h1/IoT-knoop-WiFi-3.png
   :width: 300px
   :align: right
 
